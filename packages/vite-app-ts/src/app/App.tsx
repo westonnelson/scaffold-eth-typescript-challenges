@@ -19,6 +19,7 @@ import '~~/styles/css/tailwind-base.pcss';
 import '~~/styles/css/tailwind-components.pcss';
 import '~~/styles/css/tailwind-utilities.pcss';
 import '~~/styles/css/app.css';
+import { NETWORKS } from '~~/models/constants/networks';
 
 // load saved theme
 const savedTheme = window.localStorage.getItem('theme');
