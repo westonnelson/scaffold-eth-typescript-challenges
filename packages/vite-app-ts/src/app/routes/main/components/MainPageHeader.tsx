@@ -79,7 +79,7 @@ export const MainPageHeader: FC<IMainPageHeaderProps> = (props) => {
     const description = (
       <div>
         You have <b>{getNetwork(selectedChainId)?.name}</b> selected and you need to be on{' '}
-        <b>{getNetwork(props.scaffoldAppProviders.targetNetwork)?.name ?? 'UNKNOWN'}</b>.
+        <b>{getNetwork(props.scaffoldAppProviders.targetNetwork)?.name ?? 'goerli'}</b>.
       </div>
     );
     networkDisplay = (

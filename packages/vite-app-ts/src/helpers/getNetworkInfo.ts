@@ -5,7 +5,7 @@ import { BaseProvider } from '@ethersproject/providers';
 import { TNetworkInfo } from '~~/models/NetworkTypes';
 import { NETWORKS, TNetworkNames } from '../models/constants/networks';
 
-export const getNetworkInfo = (chainId: number | undefined): TNetworkInfo | undefined => {
+export const getNetworkInfo = (chainId:  | undefined): TNetworkInfo | undefined => {
   if (!chainId) return;
 
   for (const n in NETWORKS) {
